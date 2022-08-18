@@ -1,0 +1,214 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  scroll-behavior:smooth;
+  background: #fff;
+  color: #333;
+  margin: 0;
+  height: 100%;
+}
+
+.c-site-header{
+  font-size:20px;
+  font-weight:bold;
+  color:#fff;
+  background:#293d36;
+  display:flex;
+  justify-content: space-between;
+  height:50px;
+  min-width:400px;
+  margin-bottom:40px;
+  box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.5);
+}
+
+#mainlinkslist{
+  color:#fff;
+  display:flex;
+  list-style:none;
+  justify-conten:space-evenly;
+  min-width:250px;
+}
+
+.mainlink{
+  color:white;
+  margin:15px;
+  text-decoration:none;
+}
+
+.mainlink:hover{
+  color: #86ac9f;
+}
+
+section{
+  padding: 30px 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.intro{
+ color:#fff;
+ display: grid;
+  grid-gap:15px;
+  grid-template-areas:
+    "img tite"
+    "img subtitle";
+ background-color:#587;
+  background-image:url(https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: 2px;
+  background-blend-mode:multiply;
+   min-width:514px;
+  margin-left:25px;
+  margin-right:0px;
+  padding-top:0;
+  padding-bottom:0;
+  box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.5);
+}
+
+.introimg{
+  box-shadow: 5px 0px 9px -5px rgba(0,0,0,0.5);
+  grid-area:img;
+min-width: 200px;
+}
+
+.introtitle{
+  gridarea:title;
+  font-size:50px;
+  min-width: 300px;
+  
+}
+
+.introsubtitle{
+  font-size: 30px;
+  min-width: 50px;
+}
+
+#workspage{
+  padding:50px;
+  padding-bottom:30px;
+  min-width:514px;
+  margin-right:25px;
+  margin-bottom:25px;
+  text-align:center;
+  font-size:20px;
+  font-weight:old;
+  color:#fff;
+  background-color:#587;
+  background-image:url(https://free4kwallpapers.com/uploads/originals/2015/07/25/england-train-hard-parkour.jpg);
+  background-size: cover;
+  background-blend-mode:multiply;
+  box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.5);
+}
+
+#design,#stunts,#coding{
+  margin:auto;
+  max-width:800px;
+}
+
+#codingtitle,#stuntstitle,#designtitle{
+  text-decoration:none;
+  color:white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#codingtitle:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+#designtitle:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+#stuntstitle:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+
+#stuntvideo{
+    border: 5px solid #151e1b;
+  min-width: 590px;
+  margin:0 auto;
+  margin-bottom:130px;
+  display: flex;
+  box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.5);
+}
+
+
+
+#outro{
+  margin:30px;
+  margin-bottom:6px;
+  color:#86ac9f;
+  text-transform: uppercase;
+  text-align: center;
+  min-width:335px;
+}
+
+.c-site-footer{
+  text-align:center;
+  color:#293d36;
+  margin-top:0px;
+  padding:30px;
+  padding-top:15px;
+  background: #86ac9f;
+       min-width:335px;
+
+}
+
+#socials{
+  
+  list-style:none;
+  display:flex;
+  justify-content: center;
+}
+
+#goback,#email,#insta1,#insta2,#codepen {
+  font-weight:bold;
+  font-style:italic;
+  font-size:17px;
+    text-decoration:none;
+  color:#fff;
+  margin:5px;
+}
+
+#email:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+#goback:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+#insta1:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+#insta2:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+#codepen:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
